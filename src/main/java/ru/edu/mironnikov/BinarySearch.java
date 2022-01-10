@@ -21,7 +21,7 @@ public interface BinarySearch {
             } else if (array[curIn] < key) {
                 lowerBound = curIn + 1;
             } else {
-                upperBound = curIn + 1;
+                upperBound = curIn - 1;
             }
         }
     }
